@@ -57,15 +57,14 @@ If you have issues with automatic setup, you can manually create a user by follo
 
 The server exposes the following MCP tools:
 
-| Tool Name           | Description                      | Parameters                                       |
-| ------------------- | -------------------------------- | ------------------------------------------------ |
-| `sum`               | Calculate the sum of two numbers | `a` (number), `b` (number)                       |
-| `turnLightOn`       | Turn on a specific light         | `name` (string)                                  |
-| `turnLightOff`      | Turn off a specific light        | `name` (string)                                  |
-| `listAllLights`     | List all available lights        | None                                             |
-| `listAllRooms`      | List all available rooms         | None                                             |
-| `turnRoomLightsOn`  | Turn on all lights in a room     | `name` (string), `brightness` (number, optional) |
-| `turnRoomLightsOff` | Turn off all lights in a room    | `name` (string)                                  |
+| Tool Name           | Description                   | Parameters                                       |
+| ------------------- | ----------------------------- | ------------------------------------------------ |
+| `turnLightOn`       | Turn on a specific light      | `name` (string)                                  |
+| `turnLightOff`      | Turn off a specific light     | `name` (string)                                  |
+| `listAllLights`     | List all available lights     | None                                             |
+| `listAllRooms`      | List all available rooms      | None                                             |
+| `turnRoomLightsOn`  | Turn on all lights in a room  | `name` (string), `brightness` (number, optional) |
+| `turnRoomLightsOff` | Turn off all lights in a room | `name` (string)                                  |
 
 ## Running the Server
 

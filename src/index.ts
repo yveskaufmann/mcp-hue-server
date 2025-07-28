@@ -13,18 +13,6 @@ const server = new McpServer({
 });
 
 server.registerTool(
-  'sum',
-  {
-    title: 'Sum Calculator',
-    description: 'Calculate the Sum of Two Numbers a and b and return the result',
-    inputSchema: { a: z.number(), b: z.number() },
-  },
-  async ({ a, b }) => ({
-    content: [{ type: 'text', text: `The sum of ${a} and ${b} is ${(a ?? 0) + (b ?? 0)}` }],
-  }),
-);
-
-server.registerTool(
   'turnLightOn',
   {
     title: 'Turn Light On',
