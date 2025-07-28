@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "hue-mcp-server-177b3a6b": {
+      "type": "stdio",
+      "command": "make",
+      "args": [
+        "start"
+      ]
+    }
+  },
+  "inputs": []
+}

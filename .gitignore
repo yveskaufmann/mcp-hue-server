@@ -1,0 +1,41 @@
+#
+# These files are developer specific and can be used to override default settings
+#
+docker-compose.override.yaml
+docker-compose.override.yml
+
+
+# Exclude .env files as these can contain sensitive information
+.env
+.env.local
+.env.development
+.env/dev
+
+# Ide files
+#
+.idea
+.vscode/tags
+.vscode/chrome
+
+#
+# OS Specific files
+#
+.DS_Store
+
+#
+# NPM stuff
+#
+node_modules
+
+#
+# Log files
+#
+*.log
+.logs
+logs
+
+#
+# Build / Generated Directories
+#
+dist
+build/

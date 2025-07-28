@@ -1,0 +1,37 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+  ],
+  "compilerOptions": {
+    // Target & language configuration Specify ECMAScript target version.
+    "target": "es2020",
+    "lib": [
+      "ES2024"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    // Module configuration
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "isolatedModules": true,
+    // Input and output directories
+    "rootDir": "./src",
+    "outDir": "./dist",
+    // Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility.
+    "esModuleInterop": true,
+    // Ensure that casing is correct in imports.
+    "forceConsistentCasingInFileNames": true,
+    // Enable all strict type-checking options.
+    "strict": true,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    // Emit source maps for debugging
+    "sourceMap": true,
+    "inlineSources": true
+  }
+}
